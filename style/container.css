@@ -1,0 +1,15 @@
+:root {
+    --background: #f3f3f3;
+    --btn-continue: #3C96F7;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 100vh;
+
+    background-color: var(--background);
+}
