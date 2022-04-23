@@ -6,40 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram</title>
     <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style//container.css">
+    <link rel="stylesheet" href="./style/container.css">
+    
+    <link rel="stylesheet" href="./style/login-block.css">
+    <link rel="stylesheet" href="./style/user.css">
+    <link rel="stylesheet" href="./style/platform.css">
   </head>
   <body>
     <div class="container">
-      <aside>
-        <img src="./img/instagram-celular.png" alt="Phone" />
-      </aside>
-      <section>
-        <div>
-          <img src="./img/instagram-logo.png" alt="Logo do Instagram" />
-        </div>
-        <div>
-          <img src="./img/perfil.png" alt="Foto de perfil" />
-        </div>
-        <div>
-          <a href="#">Continue como renansouza</a>
-          <a href="#">Remover conta</a>
-        </div>
-      </section>
-      <section>
-        <p>Não é renansouza?</p>
-        <p><a href="#">Alternar contas</a> ou <a href="#">Inscreva-se</a></p>
-      </section>
-      <section>
-        <p>Baixe o aplicativo</p>
-        <div>
-          <a href="#">
-            <img src="./img/apple-button.png" alt="Link AppStore">
-          </a>
-          <a href="#">
-            <img src="./img/googleplay-button.png" alt="Link Google Play">
-          </a>
-        </div>
-      </section>
+        <aside class="aside-block">
+          <img src="./img/instagram-celular.png" alt="Telefone ilustrativo" />
+        </aside>
+
+      <div class="login-block">
+        <section class="user">
+          <figure>
+            <img src="./img/logo.svg" alt="Logo do Instagram" />
+          </figure>
+          <div class="user__avatar"">
+            <img src="./img/avatar.png" alt="Foto de perfil do usuário" />
+          </div>
+          <div class="user__account">
+            <a href="#">Continue como renansouza</a>
+            <a href="#">Remover conta</a>
+          </div>
+        </section>
+        <!--
+        -->
+        <section class="not-user">
+          <p>Não é renansouza?</p>
+          <p><a href="#">Alternar contas</a> ou <a href="#">Inscreva-se</a></p>
+        </section>
+        <!--
+        -->
+        <section class="platfomr">
+          <p>Baixe o aplicativo</p>
+          <div class="platform__list">
+            <a href="#"><img src="./img/apple-button.png" alt="Logo AppStore"></a>
+            <a href="#"><img src="./img/googleplay-button.png" alt="Logo Google Play"></a>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
