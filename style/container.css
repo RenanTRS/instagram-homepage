@@ -1,15 +1,52 @@
 :root {
-    --background: #f3f3f3;
-    --btn-continue: #3C96F7;
+    --background-grey: #f3f3f3;
+    --background-white: #fff;
+    --blue: #3C96F7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body {
+    font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .container {
+    /*
+    background-color: var(--background-white);
+    */
+    
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 100%;
+    
+    width: 90%;
     min-height: 100vh;
 
-    background-color: var(--background);
+}
+
+.container aside {
+    display: none;
+}
+
+@media (min-width: 650px) {
+    body{
+        background-color: var(--background-grey);
+    }
+    .container aside {
+        display: initial;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container aside img {
+        height: 650px; /* add clamp */
+    }
 }
