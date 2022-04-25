@@ -2,6 +2,9 @@
     --background-grey: #f3f3f3;
     --background-white: #fff;
     --blue: #3C96F7;
+    --grey: #a0a0a0;
+    
+    font-size: 62.5%;
 }
 *{
     margin: 0;
