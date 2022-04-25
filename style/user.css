@@ -31,6 +31,9 @@
     color: white;
     border-radius: .4rem;
 }
+.user .user__login:hover {
+    background-color: var(--blue-dark);
+}
 .user .user__logout {
     margin-top: 1.4rem;
     color: var(--blue);
