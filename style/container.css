@@ -10,13 +10,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
     text-decoration: none;
 }
 body {
-    font-size: 62.5%;
     display: flex;
     justify-content: center;
+    
     width: 100%;
 
     font-family: sans-serif;
@@ -24,17 +23,12 @@ body {
 }
 
 .container {
-    /*
-    background-color: var(--background-white);
-    */
-    
     display: flex;
     justify-content: center;
     align-items: center;
     
     width: 90%;
     min-height: 100vh;
-
 }
 
 .container aside {
@@ -46,12 +40,11 @@ body {
         background-color: var(--background-grey);
     }
     .container aside {
-        display: initial;
-        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
-        align-items: center;
+        
+        width: 50%;
     }
     .container aside img {
         height: 650px; /* add clamp */
