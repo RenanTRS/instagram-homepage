@@ -19,4 +19,6 @@
 .platform__list a img{
     height: 4.2rem;
     width: 14rem;
+
+    pointer-events: none;
 }

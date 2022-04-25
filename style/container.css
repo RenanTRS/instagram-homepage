@@ -50,3 +50,9 @@ body {
         height: 650px; /* add clamp */
     }
 }
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+        max-width: 80rem;
+    }
+}
