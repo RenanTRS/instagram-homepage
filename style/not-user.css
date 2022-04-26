@@ -14,6 +14,15 @@
     color: var(--blue);
 }
 
+/*AppleWatch*/
+@media (max-width: 165px) {
+    .not-user p :last-child{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/*Mobile to Desktop*/
 @media (min-width: 650px) {
     .not-user {
         background-color: var(--background-white);

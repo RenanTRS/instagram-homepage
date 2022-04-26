@@ -15,6 +15,7 @@
     width: 100%;
     
     padding: 1.4rem;
+    flex-wrap: wrap;
 }
 .platform__list a img{
     height: 4.2rem;

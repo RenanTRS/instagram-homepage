@@ -11,37 +11,53 @@
 
     background-color: var(--background-white);
 }
+
 .user figure img{
     width: 14.9rem;
 }
 
 .user .user__avatar img{
     border-radius: 50%;
+    
     height: 8.4rem;
 }
+
 .user .user__account {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
+
 .user .user__login {
     padding: .8rem;
+    
     background-color: var(--blue);
     color: white;
+
     border-radius: .4rem;
 }
 .user .user__login:hover {
     background-color: var(--blue-dark);
 }
+
 .user .user__logout {
     margin-top: 1.4rem;
+
     color: var(--blue);
 }
 
+/*AppleWatch*/
+@media (max-width: 218px) {
+    .user .user__login{
+        text-align: center;
+    }
+}
+/*Mobile to Desktop*/
 @media (min-width: 650px) {
     .user {
         background-color: var(--background-white);
+        
         border: 1px solid lightgray;
         border-radius: .5rem;
     }
